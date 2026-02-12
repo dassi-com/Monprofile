@@ -28,9 +28,8 @@ const About = () => {
   ];
 
   const stats = [
-    { value: "50+", label: "Projets réalisés" },
-    { value: "3+", label: "Années d'expérience" },
-    { value: "100%", label: "Satisfaction client" }
+    { value: "20+", label: "Projets réalisés" },
+    { value: "1+", label: "Années d'expérience" },
   ];
 
   return (

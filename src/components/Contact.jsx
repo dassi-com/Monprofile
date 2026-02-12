@@ -188,7 +188,7 @@ const Contact = () => {
         </div>
       </div>
       
-      <style >{`
+      <style>{`
         .contact-section {
           background-color: var(--black-light);
         }

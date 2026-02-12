@@ -10,7 +10,9 @@ const menuItems = [
   { name: 'À propos', href: '#about' }, 
   { name: 'Compétences', href: '#skills' },
   { name: 'Projets', href: '#projects' },
-  { name: 'Contact', href: '#contact' }
+  { name: 'Contact', href: '#contact' },
+  { name: 'CV', href: '#cv' }
+
 ];
 
   return (

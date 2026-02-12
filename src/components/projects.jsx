@@ -22,11 +22,11 @@ const Projects = () => {
       id: 2,
       title: "237Kids",
       description: "Plateforme éducative dédiée aux enfants défavorisés du Cameroun. Interface adaptée aux enfants avec jeux éducatifs, cours interactifs et suivi de progression personnalisé.",
-      technologies: ["React JS", "Framer Motion", "CSS Modules", "Chart.js", "JavaScript"],
+      technologies: ["React JS", "Framer Motion", "JavaScript"],
       imageColor: "#9d00ff",
-         liveLink: "https://espoir-237.vercel.app/", // Lien vers la démo
+      liveLink: "https://espoir-237.vercel.app/", // Lien vers la démo
       githubLink: "https://github.com/dassi-com/237Kids", // Lien GitHub
-      status: "En développement",
+      status: "Fonctionnel",
       icon: <Heart />,
       features: ["Jeux éducatifs", "Cours interactifs", "Suivi progression", "Interface enfants"],
       dbStatus: "Aucune (frontend uniquement pour l'instant)",
@@ -38,9 +38,9 @@ const Projects = () => {
       description: "Système complet de gestion pour cabinet dentaire avec prise de rendez-vous en ligne, gestion électronique des dossiers patients et suivi des traitements dentaires.",
       technologies: ["React JS", "SQLite", "Node.js", "Express", "Tailwind CSS"],
       imageColor: "#00ccff",
-      liveLink: "https://smilecare-clinic.herokuapp.com", // Lien vers la démo
-      githubLink: "https://github.com/votre-username/smilecare", // Lien GitHub
-      status: "Fonctionnel",
+      liveLink: "https://smilecare.vercel.app", // Lien vers la démo
+      githubLink: "https://github.com/dassi-com/smilecare", // Lien GitHub
+      status: "En développement ",
       icon: <Smile />,
       features: ["Rendez-vous en ligne", "Dossiers patients", "Suivi traitements", "Facturation"],
       dbStatus: "SQLite + API Node.js",
@@ -50,7 +50,7 @@ const Projects = () => {
       id: 4,
       title: "AgriDelish",
       description: "Mon premier projet : plateforme innovante connectant directement agriculteurs locaux et restaurateurs pour une cuisine 100% locale, bio et traçable du champ à l'assiette.",
-      technologies: ["JavaScript", "HTML5", "Tailwind CSS", "Node.js", "Express"],
+      technologies: ["JavaScript", "HTML5", "sass", "Node.js", "Express"],
       imageColor: "#27ca3f",
       liveLink:  "https://agrid-delish.vercel.app",  // Lien vers la démo
       githubLink:"https://github.com/dassi-com/Agridelish/", // Lien GitHub
@@ -124,7 +124,7 @@ const Projects = () => {
             <h3>Plus de projets sur GitHub</h3>
             <p>Découvrez mes autres réalisations, contributions et projets personnels</p>
             <a 
-              href="https://github.com/votre-username" 
+              href="https://github.com/dassi-com" 
               className="btn btn-outline"
               target="_blank"
               rel="noopener noreferrer"
