@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Sparkles, Heart, Smile, Leaf } from 'lucide-react';
-import ProjectCard from './ProjectCard';
+import ProjectCard from './projectCardTem';
 
 const Projects = () => {
   const projects = [
