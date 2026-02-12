@@ -2,7 +2,7 @@ import { motion, useScroll, useSpring } from 'framer-motion';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
-import Skills from './components/Skills';
+import Skills from "./components/SkillsTem";
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 
